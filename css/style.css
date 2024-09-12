@@ -42,7 +42,13 @@
     top: 10px;
     left: 10px;
     font-size: 24px;
-    color: white;
+    color: rgb(0, 0, 0) !important;
+}
+
+.pontos{
+    font-size: 50px; 
+    color: rgb(45, 174, 34);
+    background: #87ceeb;
 }
 
 @keyframes pipe-animation {
