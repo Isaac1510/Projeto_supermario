@@ -46,14 +46,13 @@ const mario = document.querySelector('.mario');
 
                 music.pause(); 
 
-                return;
             }
 
-            updateScore();
 
-        }, 1000);
+        }, 10);
 
         
         document.addEventListener('keydown', jump);
+        document.addEventListener('touchstart', jump);
         document.addEventListener('keydown', playMusic);  
         
